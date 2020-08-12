@@ -3,6 +3,7 @@ package own.main;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        ChildA a = new ChildA();
+        a.caller();
     }
 }
